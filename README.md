@@ -35,7 +35,8 @@ y algunas plantillas de código, documentación y declaración de uso de IA gene
 | --- | --- |
 | Un PC con Windows, macOS o Linux | El del laboratorio ya lo tiene todo instalado; en vuestro portátil, seguid esta guía completa |
 | La tarjeta **FRDM-MCXA156** | Con su cable USB tipo C |
-| El software de configuración **MCUXpresso_Config_Tools_26.09_x64** | Para configurar visualmente los periféricos de la tarjeta |
+| El software de NXP **MCUXpressoInstaller** | Para instalar VS Code, el compilador de ARM, la extensión y el resto de herramientas necesarias para compilar y programar el microcontrolador |
+| El software de configuración **MCUXpresso_Config_Tools_26.06_x64** | Para configurar visualmente los periféricos de la tarjeta |
 | Conexión a Internet | Para descargar VS Code, la extensión y el SDK (~cientos de MB) |
 | Una carpeta de trabajo **sin espacios ni acentos en la ruta** | P. ej. `C:\SABEM` o `~/sabem`, nunca `C:\Users\Mi Usuario\Prácticas AGV` |
 
