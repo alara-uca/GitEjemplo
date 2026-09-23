@@ -71,26 +71,4 @@
       "other": "off"
     }
   },
-  "presentation-mode.configBackup": {
-    "workbench.colorTheme": "undefined",
-    "workbench.colorCustomizations": "undefined",
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": "'ss02', 'ss03', 'ss04', 'ss05', 'ss07', 'cv30', 'cv30', 'onum'",
-    "editor.fontSize": "undefined",
-    "editor.fontWeight": "undefined",
-    "editor.lineHeight": "undefined",
-    "editor.minimap.enabled": "undefined",
-    "workbench.activityBar.visible": "undefined",
-    "terminal.integrated.fontSize": "undefined"
-  },
-  "workbench.colorTheme": "SynthWave '84",
-  "workbench.colorCustomizations": {
-    "editor.background": "#000000",
-    "editor.foreground": "#FFFFFF"
-  },
-  "editor.fontSize": 22,
-  "editor.fontWeight": "700",
-  "editor.lineHeight": 34,
-  "editor.minimap.enabled": false,
-  "terminal.integrated.fontSize": 16
 }
