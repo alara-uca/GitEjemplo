@@ -115,7 +115,7 @@ Si el LED parpadea, la cadena completa —VS Code, extensión, SDK, compilador, 
 funciona. Es todo lo que necesitamos verificar en este momento.
 
 > Para una comprobación más profunda del depurador (opcional), consultad la sección 4.2 de
-> [Guía de instalación](docs/Guia_instalacion_VSCode_MCUXpresso.md#4.-Proyecto-de-prueba-parpadeo-del-LED).
+> [Guía de instalación](docs/Guia_instalacion_VSCode_MCUXpresso.md#4-proyecto-de-prueba-parpadeo-del-led).
 
 ## 10. Agradecimientos y Herramientas
 
