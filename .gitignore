@@ -1,0 +1,24 @@
+# --- Salida de compilacion ---
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.axf
+*.hex
+*.bin
+*.map
+*.su
+
+# --- Cache y estado local de la extension / depurador ---
+.mcuxpresso/
+*.log
+
+# --- Sistema operativo y editores ---
+Thumbs.db
+.DS_Store
+
+# --- Credenciales, nunca al repositorio ---
+*_credenciales.*
+wifi_config_local.h
