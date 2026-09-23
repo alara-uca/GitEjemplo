@@ -41,7 +41,7 @@ No hace falta ningún montaje: la FRDM-MCXA156 se alimenta y se depura por el mi
 
 ### 3.2 Instalar la extensión MCUXpresso for VS Code
 
-![MCUXpresso Extension](docs/img/MCUXpresso-Extension.png)
+![MCUXpresso Extension](img/MCUXpresso-Extension.png)
 
 1. En VS Code, abrid el panel de **Extensiones** (icono de los cuadrados en la barra lateral, o
    `Ctrl+Shift+X` / `Cmd+Shift+X`).
@@ -51,7 +51,7 @@ No hace falta ningún montaje: la FRDM-MCXA156 se alimenta y se depura por el mi
 
 ### 3.3 Importar el SDK de la FRDM-MCXA156
 
-![MCUXpresso SDK](docs/img/MCUXPresso-SDK.png)
+![MCUXpresso SDK](img/MCUXPresso-SDK.png)
 
 1. Abrid el panel de la extensión MCUXpresso.
 2. Localizad el **gestor de SDK** (*SDK Manager* / *Installed SDKs*) y elegid **importar/descargar**
@@ -61,11 +61,11 @@ No hace falta ningún montaje: la FRDM-MCXA156 se alimenta y se depura por el mi
 4. Al terminar, el SDK aparecerá en la lista de SDKs instalados y podréis usarlo para crear o
    importar proyectos.
 
-![SDK Importado](docs/img/SDK-Importado.png)
+![SDK Importado](img/SDK-Importado.png)
 
 ### 3.4 Conectar la tarjeta
 
-![FRDM-MCXA156](docs/img/FRDM-MCXA156.png)
+![FRDM-MCXA156](img/FRDM-MCXA156.png)
 
 1. Conectad la FRDM-MCXA156 al PC con el cable USB-C, al conector **MCU-Link USB**.
 2. Debe encenderse el LED de alimentación de la tarjeta.
@@ -87,7 +87,7 @@ comprobar hoy.
 1. Desde el panel de MCUXpresso, **importad el ejemplo** `driver_examples/gpio/led_output` para la
    tarjeta `FRDM-MCXA156`, eligiendo como cadena de herramientas **`arm-none-eabi-gcc`**.
 
-   ![Importar-Ejemplo](docs/img/Importar-Ejemplo.png)
+   ![Importar-Ejemplo](img/Importar-Ejemplo.png)
 
 2. **Compilad** el proyecto (botón de compilar del panel, o el atajo que indique la extensión).
    Fijaos en la salida: al final aparece el tamaño del programa, repartido entre Flash y SRAM.
@@ -124,12 +124,12 @@ librerias propias como realizamos en Informática Industrial.
    en el proyecto de prueba, seleccionando **Open with MCUXpresso Config Tools**. Se abrirá una
    ventana con la herramienta.
 
-   ![Projects-Config-Tools](docs/img/Projects-Config-Tools.png)
+   ![Projects-Config-Tools](img/Projects-Config-Tools.png)
 
 2. Al ser la primera vez que se abre la herramienta os aparecerá una ventana resumen con la
    configuración actual del proyecto. Pulsad **Close** para continuar.
 
-   ![Config-Tools](docs/img/Config-Tools.png)
+   ![Config-Tools](img/Config-Tools.png)
 
 3. En la parte superior izquierda os deberían aparecer los iconos correspondientes a las diferentes
    secciones de configuración: **Pins**, **Clocks** y **Peripherals**. Cada una de ellas permite
@@ -137,28 +137,28 @@ librerias propias como realizamos en Informática Industrial.
    automáticamente el código correspondiente en `pin_mux.c/h`, `clock_config.c/h` o en la estructura
    de inicialización del periférico.
 
-   ![Config-Tools-Secciones](docs/img/Config-Tools-Secciones.png)
+   ![Config-Tools-Secciones](img/Config-Tools-Secciones.png)
 
 4. Abrid la pestaña **Pins**: muestra un diagrama de la FRDM-MCXA156 con cada pin y, al seleccionar
    uno, la lista completa de sus funciones alternativas (GPIO, LPUART, LPSPI, LPI2C, PWM, FlexIO...).
    Asignando aquí la función de un pin, la herramienta **genera y mantiene** `pin_mux.c` /
    `pin_mux.h` — no hace falta escribirlos a mano.
 
-   ![Config-Tools-Pins](docs/img/Config-Tools-Pins.png)
+   ![Config-Tools-Pins](img/Config-Tools-Pins.png)
 
 5. Abrid la pestaña **Clocks**: representa gráficamente el árbol de relojes del MCXA156 —osciladores
    FRO, divisores, la frecuencia resultante en cada periférico— para las cinco configuraciones de
    arranque que trae el SDK (12, 24, 48, 64 y 96 MHz de núcleo). Igual que con los pines, elegir aquí
    la configuración **genera** `clock_config.c` / `clock_config.h`.
 
-   ![Config-Tools-Clocks](docs/img/Config-Tools-Clocks.png)
+   ![Config-Tools-Clocks](img/Config-Tools-Clocks.png)
 
 6. Abrid la pestaña **Peripherals**: permite dar de alta un periférico concreto (por ejemplo, un
    canal de LPADC o una instancia de LPSPI) y configurar sus parámetros básicos con controles
    gráficos; al guardar, genera la estructura de inicialización correspondiente para que la use
    vuestro código.
 
-   ![Config-Tools-Peripherals](docs/img/Config-Tools-Peripherals.png)
+   ![Config-Tools-Peripherals](img/Config-Tools-Peripherals.png)
 
 > [!NOTE]
 > **Dónde termina la herramienta y dónde empieza vuestro trabajo.** Las Config Tools nos libran de
